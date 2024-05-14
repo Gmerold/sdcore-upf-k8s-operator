@@ -1,4 +1,4 @@
-name: sdcore-upf-k8s
+name: gmerold-upf-k8s
 summary: Charmed Operator for SD-Core's User Plane Function (UPF).
 description: Charmed Operator for SD-Core's User Plane Function (UPF).
 links:
@@ -30,7 +30,7 @@ resources:
   bessd-image:
     type: oci-image
     description: OCI image for 5G upf bessd
-    upstream-source: ghcr.io/canonical/sdcore-upf-bess:1.4.0
+    upstream-source: gmerold/sdcore-upf-bess:1.4.0
 
   pfcp-agent-image:
     type: oci-image

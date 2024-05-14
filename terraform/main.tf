@@ -6,7 +6,7 @@ resource "juju_application" "upf" {
   model = var.model_name
 
   charm {
-    name    = "sdcore-upf-k8s"
+    name    = "gmerold-upf-k8s"
     channel = var.channel
   }
   config = var.config
